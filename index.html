@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Recorder Testing</h1>
+<button type="button" onclick="onClickStart()">Start</button>
+<button type="button" onclick="onClickStop()">Stop</button>
+<br>
+<p id="volume">0dB</p>
+<p id="energy">energy</p>
+<p id="signal">signal</p>
+<p id="trend">trend</p>
+<p id="start_time">start time</p>
+<p id="current_time">end time</p>
+<p id="time_diff">time diff</p>
+
+<canvas id="frequency_sine" width="800" height="200"></canvas>
+<canvas id="frequency_bar" width="800" height="200"></canvas>
+<canvas id="trend_graph" width="800" height="200"></canvas>
+
+<script src="node_modules/recordrtc/RecordRTC.js"></script>
+<script src="index.js">
+
+</script>
+
+</body>
+</html>
